@@ -17,7 +17,7 @@ Processes:
 -Then divide by xp needed per session to find number of sessions needed
 
 Outputs:
-- Print the Player's Name, Current XP, Target XP, and Session XP
+- Print the Player's Name, Current XP, Target XP, and Sessions Needed
   in a formatted message
 
 '''
@@ -26,7 +26,7 @@ player_name = input("What is the Gamer's Name? ")
 current_xp = int(input("What is your Current XP? "))
 target_xp = int(input("What is your Target XP? "))
 session_xp =float(input("How much XP is needed per session? ")) 
-#is the xp per session hard-coded?
+#is the xp per session hard-coded or no?
 
 #PROCESSES
 sessions_needed = (target_xp-current_xp)/session_xp

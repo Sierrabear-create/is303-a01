@@ -8,15 +8,15 @@ of paint are needed to paint a room.
 
 Inputs: 
 - Room Name (string)
-- Wall Height (ft--)
-- Total Wall Width (ft--)
+- Wall Height (integer)
+- Wall Width (integer)
 
 Processes: 
--Multiple total Square feet needed to cover
+-Multiple Wall Height with Wall Width
 -Divide total by 350 to find the number of needed gallons
 
-- Gallons needed = (Height * Width)/350 (feet squared)
-- One Gallon covers ~350 feet squared (INTEGER)
+- Gallons needed = (Height * Width)/350
+- One Gallon covers ~350 feet squared
 
 Outputs:
 - Print the Gallons needed and the Room Name 
@@ -33,4 +33,4 @@ gallons_needed = (wall_height * wall_width)/350
 
 #OUTPUTS
 print ("---")
-print(f"{room_name} ~ {gallons_needed} Gallons Needed")
+print(f"{room_name} needs {gallons_needed} gallons of paint!")
